@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Misc
+.DS_Store
+*.pem
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# Testing
+coverage/
+
+# Production
+/build
+
+# Temporary files
+*.log
+*.tgz
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# TypeScript
+*.tsbuildinfo
+
+# React Native
+.expo/
+.expo-shared/
+
+# Android/ios
+android/app/build/
+ios/Pods/
+ios/build/
+*.ipa
+*.apk
+
+# Local agent configuration (not for sharing)
+AGENTS.local.md
