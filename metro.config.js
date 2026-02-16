@@ -12,4 +12,7 @@ config.resolver.alias = {
   '@': './src',
 };
 
+// Prefer React-native and browser versions over Node.js
+config.resolver.resolverMainFields = ['react-native', 'browser', 'main'];
+
 module.exports = config;

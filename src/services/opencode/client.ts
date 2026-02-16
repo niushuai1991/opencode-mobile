@@ -3,7 +3,7 @@
  * Manages connection to OpenCode server
  */
 
-import { createOpencodeClient, OpencodeClient } from '@opencode-ai/sdk';
+import { createOpencodeClient, OpencodeClient } from '@opencode-ai/sdk/client';
 import { logger } from '../../utils/logger';
 import { validateServerConfig } from '../../utils/validation';
 import type { ServerConfig } from '../../types';
