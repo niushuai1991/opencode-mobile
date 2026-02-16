@@ -45,3 +45,4 @@ ios/build/
 
 # Local agent configuration (not for sharing)
 AGENTS.local.md
+*.skill
